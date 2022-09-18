@@ -1,0 +1,63 @@
+body{
+    text-align:center;
+    margin:0px;
+    padding:30px 0 30px 0;
+    background:#CCC;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#app{
+    width:500px;
+    margin:auto;
+    padding:10px;
+    background: #FFF;
+    border-radius: 25px;
+}
+
+#todo-title{
+    margin:0px;
+    padding:0px;
+    width: auto;
+    font-size: 28px;
+}
+#todo-subtitle{
+    margin:10px 0;
+    padding:0px;
+    width: auto;
+    font-size: 18px;
+}
+#todo-input{
+    border-radius: 25px;
+    font-size: 14px;
+    padding: 6px;
+    margin: 0px;
+}
+#todo-submit{
+    background: #198754;
+    border: none;
+    color: #FFF;
+    padding: 8px 20px;
+    border-radius: 15px;
+    margin: 0 0 20px 0;
+}
+#todo-output{
+    width:300px;
+    margin: auto;
+    text-align:center;
+    list-style-type: none;
+    padding:0px;
+}
+
+#todo-output li {
+    margin: 0 0 10px 0;
+    padding: 10px 8px;
+    text-align: left;
+}
+
+#todo-output li:nth-child(even){
+    background: #E9ECEF;
+}
+
+#todo-output li:nth-child(odd){
+    background: #F8F9FA;
+}
